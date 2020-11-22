@@ -58,6 +58,7 @@ function App() {
       <h3 style={{paddingLeft: '1vw'}}>{ligado === 1 ? 'Ligado' : 'Desligado'}</h3>
       </div>
       <p>Gráfico de Temperatura</p>
+      
         <div style={{background: '#fff'}}>
         <LineChart width={600} height={300} data={temps} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
           <Line type="monotone" dataKey="Temperatura" stroke="#8884d8" />
